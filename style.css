@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: rgb(97, 190, 221);
+}
+.container{
+    margin: auto;
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    background-color:white;
+}
+
+.form-inline{
+    margin-left: 60px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar-nav{
+    margin: auto;
+}
+.navbar-nav li{
+    font-size: 20px;
+}
+
+.first{
+    display: flex;
+}
+.separator{
+    color: #c0c0c0;
+line-height: 1.4em;
+margin: 30px auto;
+overflow: hidden;
+text-align: center;
+width: 100%;
+}  
+.separator::before, .separator::after {
+    border-bottom: 2px solid #eeeeee;
+    content: "";
+    display: inline-block;
+    height: .65em;
+    margin: 0 -4px 0 -100%;
+    vertical-align: top;
+    width: 50%
+}
+.fa-cog:before {
+    content: "\f013";
+    
+}
+
+.img-box img{
+    width: 300px;
+    margin: 35px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+
+}
+.box1{
+    margin-top: 25px;
+}
+.box1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 0;
+
+}
+#desg{
+    font-size: medium;
+}
+.bookmark{
+    float: right;
+    margin-left: 412px;
+    margin-top: -32px;
+    color: cadetblue;
+    font-size: 15px;
+}
+.glyphicon {
+    margin-top: 10px;
+}
+.ranking{
+    margin: 32px 0px;
+}
+.ranking p{
+    margin: 40 0px;
+    color: cadetblue;
+    font-size: 15px;
+}
+.info{
+    display: flex;
+}
+.btn{
+    padding: 3px 9px;
+}
+.main-sec{
+     display: grid;
+     grid-template-columns: repeat(2,555px);
+}
+.heading{
+    margin: 48px 8px;
+    color: cadetblue;
+    font-size: 15px;
+}
+.second{
+    /* padding: 20px; */
+}
+.second h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.btn{
+    float: right;
+    margin-right: 220px;
+    border-radius: 5px;
+    outline: lightskyblue;
+}
+.btn:hover{
+    background-color: rgb(175, 212, 235);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0;
+}
+.fourth ul {
+    list-style-type: none;
+    margin-left: -30px;
+}
+.fourth li {
+    font-weight: 600;
+    font-size: 20px;
+}
+.fifth ul{
+    list-style-type: none;
+    margin: 10px 95px;
+}
+.fifth li{
+    font-weight: 600;
+    font-size: 20px;
+}
